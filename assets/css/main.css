@@ -47,10 +47,6 @@ h4 {
     margin-bottom: 15px;
 }
 
-#meetUs {
-    z-index: -100;
-}
-
 .bio {
     padding-left: 5rem;
     padding-right: 5rem
@@ -62,5 +58,12 @@ h4 {
 
 .profilePhoto {
     width: 18rem;
-    background-color: rgba(0,204,0,.1);
+    border-color: rgba(0,204,0);
 }
+
+.igIcon {
+    color: #00cc00;
+    position: relative;
+    bottom: .25rem;
+}
+
