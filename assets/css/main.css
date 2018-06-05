@@ -1,0 +1,66 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.vertical-center {
+    min-height:700px;
+    min-height: 100vh;    
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }  
+
+.jumbotron {
+    background-image: url("../img/background-final.png");
+    margin-bottom: 0;
+}
+
+#home {
+    padding-left: 10%;
+}
+
+#testimonials {
+    min-height: 600px;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.btn, .btn-lg{
+    background-color: #00cc00;
+    color: white;
+}
+
+.card {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 15px;
+}
+
+#meetUs {
+    z-index: -100;
+}
+
+.bio {
+    padding-left: 5rem;
+    padding-right: 5rem
+}
+
+.bioHeader {
+    text-align: center;
+}
+
+.profilePhoto {
+    width: 18rem;
+    background-color: rgba(0,204,0,.1);
+}
