@@ -20,12 +20,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/hover.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar">
+
   <!-- Navigation -->
-  <nav class="navbar navbar-light navbar-expand-md bg-light justify-content-center fixed-top">
+  <nav class="navbar navbar-light navbar-expand-md bg-light justify-content-center fixed-top" id="navbar">
     <a href="/" class="navbar-brand mr-0">
       <b>My Super Trainer</b>
     </a>
@@ -34,7 +36,7 @@
     </button>
     <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
       <ul class="navbar-nav mx-auto text-center">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="#home">Home</a>
         </li>
         <li class="nav-item">
@@ -65,7 +67,9 @@
   <div class="cover jumbotron jumbotron-fluid vertical-center text-light" id="home">
     <div class="container-fluid">
       <h1 class="display-3">Commit To Be Fit.</h1>
-      <a class="btn btn-lg" href="#services" role="button">Learn More</a>
+      <a href="#services">
+        <button class="btn btn-lg">Learn More</button>
+      </a>
     </div>
   </div>
 
@@ -301,71 +305,60 @@
   </div>
 
 
-  <!-- Services -->
-  <div id="services vertical-center">
-    <div class="container">
+  <!-- Services Section-->
+
+
+  <div class="vertical-center" id="services">
+    <div class="container text-center">
       <br>
       <br>
       <h1>Services</h1>
       <br>
       <hr>
       <br>
-      <div class="row">
-        <div class="col-md-4">
-          <h3>Physique & Competition</h3>
-          <img class="img-thumbnail serviceThumb" src="assets/img/physique.JPG">
+
+      <div class="grid">
+          <figure class="effect-sarah">
+            <img src="assets/img/muscleGain.jpg" alt="img13"/>
+            <figcaption>
+              <h2>Physique & <br><span>Competition</span></h2>
+              <p>Sarah likes to watch clouds. She's quite depressed.</p>
+              <a href="#">View more</a>
+            </figcaption>			
+          </figure>
+          <figure class="effect-sarah">
+            <img src="assets/img/muscleGain.jpg" alt="img20"/>
+            <figcaption>
+              <h2>Muscle <span>Gain</span></h2>
+              <p>Sarah likes to watch clouds. She's quite depressed.</p>
+              <a href="#">View more</a>
+            </figcaption>			
+          </figure>
+
+          <figure class="effect-sarah">
+              <img src="assets/img/muscleGain.jpg" alt="img13"/>
+              <figcaption>
+                <h2>Nutrition <span>Plan</span></h2>
+                <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                <a href="#">View more</a>
+              </figcaption>			
+            </figure>
+            <figure class="effect-sarah">
+              <img src="assets/img/muscleGain.jpg" alt="img20"/>
+              <figcaption>
+                <h2>Weight <span>Loss</span></h2>
+                <p>Sarah likes to watch clouds. She's quite depressed.</p>
+                <a href="#">View more</a>
+              </figcaption>			
+            </figure>
         </div>
-        <div class="col-md-4">
-          <ul>
-            <li>feature 1</li>
-            <li>feature 2</li>
-            <li>feature 3</li>
-          </ul>
-          <button class="btn">Add to Cart</button>
-        </div>
-        <div class="col-md-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pharetra sem porttitor lectus interdum vestibulum.
-            Integer ut justo nec velit ultrices convallis. Quisque ultricies molestie mauris ac suscipit. Suspendisse bibendum,
-            odio at mattis lobortis, ex est dignissim augue, at venenatis justo augue vel nisi. Aliquam cursus, massa sed
-            dignissim elementum, massa libero rutrum velit, sed mattis lectus erat ut tellus. Phasellus dignissim arcu
-            magna, sit amet venenatis elit imperdiet id. Aliquam feugiat vestibulum sem id aliquet. Nam ac consectetur
-            ante, et rutrum ante.
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-md-4">
-          <h3>Specialized Diets</h3>
-          <h6>(vegan and non-vegan)</h6>
-          <img class="img-thumbnail serviceThumb" src="assets/img/specializedMeal.jpg">
-        </div>
-        <div class="col-md-8">
-          <a class="btn">Add to Cart</a>
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-md-4">
-          <h3>Muscle Gain</h3>
-          <img class="img-thumbnail serviceThumb" src="assets/img/muscleGain.jpg">
-        </div>
-        <div class="col-md-8">
-          <a class="btn btn-primary">Add to Cart</a>
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-md-4">
-          <h3>Weight Loss</h3>
-          <img class="img-thumbnail serviceThumb" src="assets/img/fatLoss.jpg">
-          </div>
-        <div class="col-md-8">
-          <a class="btn btn-primary">Add to Cart</a>
-        </div>
-      </div>
 
     </div>
   </div>
+
+
+  <!-- Consultation Section-->
+  <div class="vertical-center" id="consultation"></div>
 
 
 

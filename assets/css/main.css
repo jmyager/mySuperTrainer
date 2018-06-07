@@ -1,9 +1,18 @@
+body {
+    position: relative;
+}
+
 ::-webkit-scrollbar { 
     display: none; 
 }
 
 .navbar {
     margin-bottom: 0px;
+    background-color: white;
+}
+
+.nav-link.active {
+color: #00cc00; /* <—– change your color here*/
 }
 
 h4 {
@@ -36,7 +45,7 @@ h4 {
     background-color: #f8f9fa;
 }
 
-.btn, .btn-lg{
+.btn, .btn-lg, .btn-sm{
     background-color: #00cc00;
     color: white;
 }

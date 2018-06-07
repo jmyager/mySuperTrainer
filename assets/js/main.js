@@ -1,3 +1,6 @@
+$('body').scrollspy({ target: '#navbar' })
+
+
 // // // Scroll on anchor click
 // $(document).ready(function () {
 //   // Add smooth scrolling to all links
