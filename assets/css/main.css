@@ -49,11 +49,14 @@ h4 {
     background-color: #00cc00;
     color: white;
 }
+.cardHolder {
+    width: 150px;
+}
 
 .card {
-    width: 90%;
-    margin-left: 5%;
-    margin-bottom: 15px;
+    width: 70%;
+    margin: 0;
+    padding-right: 0;
 }
 
 .bio {
@@ -76,3 +79,30 @@ h4 {
     bottom: .25rem;
 }
 
+.logoImage {
+    width: 25%;
+    height: auto;
+    margin: 3%;
+}
+
+.credentials {
+    margin-top: 15%;
+}
+
+.serviceImage {
+    width: 280px;
+    height: 200px;
+    margin-left: 2%;
+    object-fit: cover;
+}
+
+.bannerImg {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.bannerImg2{
+    width: 100%;
+    margin-top: 10%;
+}
