@@ -90,7 +90,7 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-md-6 cardHolder">
+          <div class="col-md-6">
             <div class="card mb-4 box-shadow mx-auto">
               <img class="card-img-top" src="assets/img/testimonial1.jpg" alt="Card image cap">
               <div class="card-body">
@@ -111,7 +111,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 cardHolder">
+          <div class="col-md-6">
             <div class="card mb-4 box-shadow mx-auto">
               <img class="card-img-top" src="assets/img/testimonial2.jpg" alt="Card image cap">
               <div class="card-body">
@@ -132,7 +132,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 cardHolder">
+          <div class="col-md-6">
             <div class="card mb-4 box-shadow mx-auto">
               <img class="card-img-top" src="assets/img/testimonial3.jpg" alt="Card image cap">
               <div class="card-body">
@@ -155,7 +155,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 cardHolder">
+          <div class="col-md-6">
             <div class="card mb-4 box-shadow mx-auto">
               <img class="card-img-top" src="assets/img/testimonial4.jpg" alt="Card image cap">
               <div class="card-body">
@@ -177,7 +177,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 cardHolder">
+          <div class="col-md-6">
             <div class="card mb-4 box-shadow mx-auto">
               <img class="card-img-top" src="assets/img/testimonial5.jpg" alt="Card image cap">
               <div class="card-body">
@@ -204,7 +204,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 cardHolder">
+          <div class="col-md-6">
             <div class="card mb-4 box-shadow mx-auto">
               <img class="card-img-top" src="assets/img/testimonial6.jpg" alt="Card image cap">
               <div class="card-body">
@@ -364,7 +364,58 @@
               <li>Point 2</li>
               <li>Point 3</li>
             </ul>
-            <button class="btn btn-large">Inquire</button>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-large" data-toggle="modal" data-target="#exampleModal">
+              Inquire
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Inquire About Service</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="https://formspree.io/jmyager6@gmail.com" method="POST">
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputfirstName">First Name</label>
+                          <input type="text" name="firstName" class="form-control" id="firstName" placeholder="John">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputlastName">Last Name</label>
+                          <input type="text" name="lastName" class="form-control" id="lastName" placeholder="Smith">
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail">Email</label>
+                          <input type="email" name="_replyto" class="form-control" id="email" placeholder="john@gmail.com">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPhone">Phone</label>
+                          <input type="text" name="phone" class="form-control" id="phone" placeholder="919-555-5555">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputGoals">Goals</label>
+                        <textarea type="textarea" name="goals" class="form-control" id="goals" placeholder="Tell us a bit about your goals..."></textarea>
+                      </div>
+                      <input type="hidden" name="_next" value="https://site.io/thanks.html" />
+                      <input type="hidden" name="_subject" value="New Inquiry!" />
+                      <input type="hidden" name="_format" value="plain" />
+                      <button type="submit" value="Send" class="btn btn-large" id="formSubmit" )>Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
           <div class="col-md-3">
             <div class="grid">
@@ -384,7 +435,58 @@
               <li>Point 2</li>
               <li>Point 3</li>
             </ul>
-            <button class="btn btn-large">Inquire</button>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-large" data-toggle="modal" data-target="#exampleModal">
+              Inquire
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Inquire About Service</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="https://formspree.io/jmyager6@gmail.com" method="POST">
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputfirstName">First Name</label>
+                          <input type="text" name="firstName" class="form-control" id="firstName" placeholder="John">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputlastName">Last Name</label>
+                          <input type="text" name="lastName" class="form-control" id="lastName" placeholder="Smith">
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail">Email</label>
+                          <input type="email" name="_replyto" class="form-control" id="email" placeholder="john@gmail.com">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPhone">Phone</label>
+                          <input type="text" name="phone" class="form-control" id="phone" placeholder="919-555-5555">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputGoals">Goals</label>
+                        <textarea type="textarea" name="goals" class="form-control" id="goals" placeholder="Tell us a bit about your goals..."></textarea>
+                      </div>
+                      <input type="hidden" name="_next" value="https://site.io/thanks.html" />
+                      <input type="hidden" name="_subject" value="New Inquiry!" />
+                      <input type="hidden" name="_format" value="plain" />
+                      <button type="submit" value="Send" class="btn btn-large" id="formSubmit" )>Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
           <div class="col-md-3">
             <div class="grid">
@@ -404,7 +506,58 @@
               <li>Point 2</li>
               <li>Point 3</li>
             </ul>
-            <button class="btn btn-large">Inquire</button>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-large" data-toggle="modal" data-target="#exampleModal">
+              Inquire
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Inquire About Service</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="https://formspree.io/jmyager6@gmail.com" method="POST">
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputfirstName">First Name</label>
+                          <input type="text" name="firstName" class="form-control" id="firstName" placeholder="John">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputlastName">Last Name</label>
+                          <input type="text" name="lastName" class="form-control" id="lastName" placeholder="Smith">
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail">Email</label>
+                          <input type="email" name="_replyto" class="form-control" id="email" placeholder="john@gmail.com">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPhone">Phone</label>
+                          <input type="text" name="phone" class="form-control" id="phone" placeholder="919-555-5555">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputGoals">Goals</label>
+                        <textarea type="textarea" name="goals" class="form-control" id="goals" placeholder="Tell us a bit about your goals..."></textarea>
+                      </div>
+                      <input type="hidden" name="_next" value="https://site.io/thanks.html" />
+                      <input type="hidden" name="_subject" value="New Inquiry!" />
+                      <input type="hidden" name="_format" value="plain" />
+                      <button type="submit" value="Send" class="btn btn-large" id="formSubmit" )>Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
           <div class="col-md-3">
             <div class="grid">
@@ -424,7 +577,58 @@
               <li>Point 2</li>
               <li>Point 3</li>
             </ul>
-            <button class="btn btn-large">Inquire</button>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-large" data-toggle="modal" data-target="#exampleModal">
+              Inquire
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Inquire About Service</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="https://formspree.io/jmyager6@gmail.com" method="POST">
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputfirstName">First Name</label>
+                          <input type="text" name="firstName" class="form-control" id="firstName" placeholder="John">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputlastName">Last Name</label>
+                          <input type="text" name="lastName" class="form-control" id="lastName" placeholder="Smith">
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail">Email</label>
+                          <input type="email" name="_replyto" class="form-control" id="email" placeholder="john@gmail.com">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPhone">Phone</label>
+                          <input type="text" name="phone" class="form-control" id="phone" placeholder="919-555-5555">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputGoals">Goals</label>
+                        <textarea type="textarea" name="goals" class="form-control" id="goals" placeholder="Tell us a bit about your goals..."></textarea>
+                      </div>
+                      <input type="hidden" name="_next" value="https://site.io/thanks.html" />
+                      <input type="hidden" name="_subject" value="New Inquiry!" />
+                      <input type="hidden" name="_format" value="plain" />
+                      <button type="submit" value="Send" class="btn btn-large" id="formSubmit" )>Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
 
 
