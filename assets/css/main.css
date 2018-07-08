@@ -67,6 +67,8 @@ h4 {
 
 .profilePhoto {
     width: 18rem;
+    height: 18rem;
+    object-fit: cover;
     border-color: rgba(0,204,0);
 }
 
