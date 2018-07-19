@@ -10,10 +10,10 @@
 }
 
 .grid {
-	position: relative;
+	/* position: relative;
 	margin: 0 auto;
-	padding: 1em 0 4em;
-	max-width: 1000px;
+	padding: 1em 0 1em;
+	max-width: 1000px; */
 	list-style: none;
 	text-align: center;
 }
@@ -21,13 +21,15 @@
 /* Common style */
 .grid figure {
 	position: relative;
-	float: left;
+	/* float: left; */
 	overflow: hidden;
-	margin: 10px 1%;
+	margin: 1rem;
+	margin-left: auto;
+	margin-right: auto;
 	min-width: 240px;
 	max-width: 240px;
 	max-height: 160px;
-	width: 48%;
+	width: auto;
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;

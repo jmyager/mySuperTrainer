@@ -54,7 +54,7 @@ h4 {
     Border: 1px solid #00cc00;
 }
 
-.card {
+.testimonialCard {
     width: 70%;
     margin: 0;
     padding-right: 0;
@@ -114,3 +114,12 @@ h4 {
     padding-left: 5%;
     padding-right: 5%;
 }
+
+.card-group {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }

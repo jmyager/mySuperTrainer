@@ -99,7 +99,7 @@
 
         <div class="row">
           <div class="col-md-6">
-            <div class="card mb-4 box-shadow mx-auto">
+            <div class="card testimonialCard mb-4 box-shadow mx-auto">
               <img class="card-img-top" src="assets/img/testimonial1.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">"Nihar has a unique approach to providing fitness and health to his clients..."</p>
@@ -120,7 +120,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="card mb-4 box-shadow mx-auto">
+            <div class="card testimonialCard mb-4 box-shadow mx-auto">
               <img class="card-img-top" src="assets/img/testimonial2.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">"The one thing you can count on without doubt is Nihar's approachability..."</p>
@@ -141,7 +141,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="card mb-4 box-shadow mx-auto">
+            <div class="card testimonialCard mb-4 box-shadow mx-auto">
               <img class="card-img-top" src="assets/img/testimonial3.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">"Initially my goal of working with Nihar was to add 5-8 pounds of muscle..."</p>
@@ -164,7 +164,7 @@
           </div>
 
           <div class="col-md-6">
-            <div class="card mb-4 box-shadow mx-auto">
+            <div class="card testimonialCard mb-4 box-shadow mx-auto">
               <img class="card-img-top" src="assets/img/testimonial4.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">"If you are serious about becoming permanently healthy, then I highly highly recommend..."</p>
@@ -186,7 +186,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="card mb-4 box-shadow mx-auto">
+            <div class="card testimonialCard mb-4 box-shadow mx-auto">
               <img class="card-img-top" src="assets/img/testimonial5.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">"I had been struggling with my weight for many years and when I realized..."</p>
@@ -213,7 +213,7 @@
             </div>
           </div>
           <div class="col-md-6">
-            <div class="card mb-4 box-shadow mx-auto">
+            <div class="card testimonialCard mb-4 box-shadow mx-auto">
               <img class="card-img-top" src="assets/img/testimonial6.jpg" alt="Card image cap">
               <div class="card-body">
                 <p class="card-text">"After being frustrated with my own efforts and trying several different diets..."</p>
@@ -349,7 +349,74 @@
       <hr>
       <div class="container text-center">
         <div class="row">
-          <div class="col-md-3">
+
+            <div class="col-md-6 ml-auto">
+                <div class="grid">
+                  <figure class="effect-sarah">
+                    <img src="assets/img/physique.JPG" alt="img13" />
+                    <figcaption>
+                      <h2>Personal
+                        <br>
+                        <span>Training</span>
+                    </figcaption>
+                  </figure>
+                </div>
+    
+    
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-large btn-outline-success" data-toggle="modal" data-target="#exampleModal">
+                  Learn More
+                </button>
+    
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Inquire About Personal Training</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Enter your information below and we'll be in touch soon!</p>
+                        <br>
+                        <form action="https://formspree.io/dividedempire@gmail.com" method="POST">
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputfirstName">First Name</label>
+                              <input type="text" name="firstName" class="form-control" id="firstName" placeholder="John">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputlastName">Last Name</label>
+                              <input type="text" name="lastName" class="form-control" id="lastName" placeholder="Smith">
+                            </div>
+                          </div>
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputEmail">Email</label>
+                              <input type="email" name="_replyto" class="form-control" id="email" placeholder="john@gmail.com">
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputPhone">Phone</label>
+                              <input type="text" name="phone" class="form-control" id="phone" placeholder="919-555-5555">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="inputGoals">Goals</label>
+                            <textarea type="textarea" name="goals" class="form-control" id="goals" placeholder="Tell us a bit about your goals..."></textarea>
+                          </div>
+                          <input type="hidden" name="_subject" value="New Inquiry!" />
+                          <input type="hidden" name="_format" value="plain" />
+                          <button type="submit" value="Send" class="btn btn-large" id="formSubmit" )>Submit</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          <div class="col-md-6">
             <div class="grid">
               <figure class="effect-sarah">
                 <img src="assets/img/physique.JPG" alt="img13" />
@@ -372,7 +439,7 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Inquire About Service</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Inquire About Physique & Competition</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -413,9 +480,13 @@
                 </div>
               </div>
             </div>
+          </div>
 
           </div>
-          <div class="col-md-3">
+
+          <div class="row">
+
+          <div class="col-md-4">
             <div class="grid">
               <figure class="effect-sarah">
                 <img src="assets/img/muscleGain.jpg" alt="img13" />
@@ -438,7 +509,7 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Inquire About Service</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Inquire About Muscle Gain</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -481,7 +552,7 @@
             </div>
 
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <div class="grid">
               <figure class="effect-sarah">
                 <img src="assets/img/diet.jpg" alt="img13" />
@@ -504,7 +575,7 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Inquire About Service</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Inquire About Specialized Diet</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -545,9 +616,9 @@
                 </div>
               </div>
             </div>
-
           </div>
-          <div class="col-md-3">
+
+          <div class="col-md-4">
             <div class="grid">
               <figure class="effect-sarah">
                 <img src="assets/img/fatLoss.jpg" alt="img13" />
@@ -570,7 +641,7 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Inquire About Service</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Inquire About Fat Loss</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -611,8 +682,9 @@
                 </div>
               </div>
             </div>
-
           </div>
+
+        </div>
 
 
         </div>
@@ -631,9 +703,10 @@
       <h1>Supplements</h1>
       <br>
       <hr>
-      <h4>We are now in partnership with a high quality nutritional line of products called Species Nutrition.</h4>
-      <img src="assets/img/species.png" style="width:400px; margin-top: 4%; margin-bottom: 4%;">
       <div class="textbox">
+      <h4>We are now in partnership with a high quality nutritional line of products called Species Nutrition.</h4>
+      <img class="img-fluid" src="assets/img/species.png" style="width:400px; margin-top: 4%; margin-bottom: 4%;">
+      
       <p>This is your one-stop-shop for all the general health, exercise and performance supplements, all 100% pharmaceutical
         grade quality. As everyone knows, we typically do not advertise, nor do we condone the use of excessive supplements,
         so for us to recommend a line of product is a big deal indeed! And that is exactly what you will be getting, 25%
@@ -654,7 +727,7 @@
 
       <div class="card-group">
         <div class="card">
-          <img class="card-img-top" src="assets/img/isolyze.png" alt="Card image cap">
+          <img class="card-img-top mx-auto" src="assets/img/isolyze.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Isolyze</h5>
             <p class="card-text">A 100% pure whey protein isolate with no fat and no added sugar with fast-acting whey hydrolysate peptides to
@@ -663,7 +736,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="assets/img/v-mineralyze.png" alt="Card image cap">
+          <img class="card-img-top mx-auto" src="assets/img/v-mineralyze.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">V-mineralyze</h5>
             <p class="card-text">All inclusive Multivitamin &amp; Multi-mineral formula that is more than 95% bio-available. – &gt; this beats
@@ -672,7 +745,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="assets/img/omegalyze.png" alt="Card image cap">
+          <img class="card-img-top mx-auto" src="assets/img/omegalyze.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Omegalyze</h5>
             <p class="card-text">Omega-3 Fatty Acids that combines Heart-Healthy Omega 3 fish oils with Omega-6 (from Evening Primrose oil). No
@@ -681,7 +754,7 @@
           </div>
         </div>
         <div class="card">
-          <img class="card-img-top" src="assets/img/fiberlyze.png" alt="Card image cap">
+          <img class="card-img-top mx-auto" src="assets/img/fiberlyze.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Fiberlyze</h5>
             <p class="card-text">Fiber product that Tastes absolutely delicious- for dieters is almost a treat at nighttime, but without any of
