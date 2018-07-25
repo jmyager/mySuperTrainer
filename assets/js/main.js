@@ -30,3 +30,7 @@ $(document).ready(function () {
 $(document).ready("#formSubmit", function() {
 
 })
+
+
+$('body').css('overflow','hidden');
+$('body').css('position','fixed');
