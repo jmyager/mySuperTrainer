@@ -18,9 +18,9 @@ A local business contracted me to recreate their online presence. This amounted 
 
 ## Redesign
 ### The Old Design
-![Screen Old](/assets/images/screen1-old.png?raw=true "Screen Old")
+![Screen Old](/assets/img/screen1-old.png?raw=true "Screen Old")
 ### The New Design
-![Screenshot 1](/assets/images/screen1.png?raw=true "Screenshot 1")
+![Screenshot 1](/assets/img/screen1.png?raw=true "Screenshot 1")
 
 
 
