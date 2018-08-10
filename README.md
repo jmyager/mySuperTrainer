@@ -19,10 +19,10 @@ A local business contracted me to recreate their online presence. This amounted 
 ## The Old Design
 ![Screencap Old](/assets/img/screencap-old.gif?raw=true "Screencap Old")
 ![Screen Old](/assets/img/screen1-old.png?raw=true "Screen Old")
-<img src="https://github.com/favicon.ico" width="18">
-
 
 ## The New Design
+![Screencap](/assets/img/screencap.gif?raw=true "Screencap")
+![Screencap Small](/assets/img/screencap-small.gif?raw=true "Screencap Small")
 ![Screenshot 1](/assets/img/screen1.png?raw=true "Screenshot 1")
 
 
