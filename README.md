@@ -16,6 +16,14 @@ A local business contracted me to recreate their online presence. This amounted 
 * Consulting with client to outline website goals, illustrate wire frame, and site functionality
 * Developing user-friendly architectures by programming site navigation, social media links/widgets, UX animations, and organizing site content into a logical catalog
 
+## Redesign
+### The Old Design
+![Screen Old](/assets/images/screen1-old.png?raw=true "Screen Old")
+### The New Design
+![Screenshot 1](/assets/images/screen1.png?raw=true "Screenshot 1")
+
+
+
 ## Demo
 The test site can be viewed [here](http://www.joshyager.com/mySuperTrainer/)
 The full site can be viewed [here](http://www.mysupertrainer.com/)
