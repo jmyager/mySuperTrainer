@@ -17,13 +17,16 @@ A local business contracted me to recreate their online presence. This amounted 
 * Developing user-friendly architectures by programming site navigation, social media links/widgets, UX animations, and organizing site content into a logical catalog
 
 ## The Old Design
+![Screen Old](/assets/img/screen1-old.png?raw=true "Screen Old")  
+
 ![Screencap Old](/assets/img/screencap-old.gif?raw=true "Screencap Old")
-![Screen Old](/assets/img/screen1-old.png?raw=true "Screen Old")
+
 
 ## The New Design
-![Screencap](/assets/img/screencap.gif?raw=true "Screencap")
-![Screencap Small](/assets/img/screencap-small.gif?raw=true "Screencap Small")
-![Screenshot 1](/assets/img/screen1.png?raw=true "Screenshot 1")
+![Screenshot 1](/assets/img/screen1.png?raw=true "Screenshot 1")  
+
+![Screencap](/assets/img/screencap.gif?raw=true "Screencap")  
+
 
 
 
