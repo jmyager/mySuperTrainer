@@ -31,5 +31,6 @@ A local business contracted me to recreate their online presence. This amounted 
 
 
 ## Demo
-The test site can be viewed [here](http://www.joshyager.com/mySuperTrainer/)
-The full site can be viewed [here](http://www.mysupertrainer.com/)
+The test site can be viewed [here](http://www.joshyager.com/mySuperTrainer/).  
+
+The full site can be viewed [here](http://www.mysupertrainer.com/).
