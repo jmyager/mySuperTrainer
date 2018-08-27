@@ -33,10 +33,13 @@ body {
 color: #00cc00; /* <—– change your color here*/
 }
 
-@media screen and (min-width: 770px) {
-    .navIcon {
-    margin-left: auto;
-    margin-right: auto;
+@media only screen and (max-width: 768px) {
+    .nav-icon {
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    .nav-social {
+        justify-content: center;
     }
 }
 
